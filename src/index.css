@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CredTech Financial Platform Design System - Professional Dark Theme */
+
+@layer base {
+  :root {
+    /* Core Background & Text */
+    --background: 220 23% 5%;
+    --foreground: 210 40% 98%;
+
+    /* Cards & Surfaces */
+    --card: 220 20% 8%;
+    --card-foreground: 210 40% 98%;
+
+    /* Overlays */
+    --popover: 220 20% 8%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Primary Brand - Professional Blue */
+    --primary: 210 80% 55%;
+    --primary-foreground: 220 23% 5%;
+
+    /* Secondary - Muted Blue */
+    --secondary: 220 15% 15%;
+    --secondary-foreground: 210 40% 98%;
+
+    /* Muted Elements */
+    --muted: 220 15% 12%;
+    --muted-foreground: 220 8% 60%;
+
+    /* Accent - Bright Blue for highlights */
+    --accent: 200 90% 60%;
+    --accent-foreground: 220 23% 5%;
+
+    /* Risk Colors */
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Success - Financial Green */
+    --success: 142 75% 45%;
+    --success-foreground: 220 23% 5%;
+
+    /* Warning - Financial Yellow */
+    --warning: 45 85% 55%;
+    --warning-foreground: 220 23% 5%;
+
+    /* Borders & Inputs */
+    --border: 220 15% 18%;
+    --input: 220 15% 18%;
+    --ring: 210 80% 55%;
+
+    /* UI Elements */
+    --radius: 0.5rem;
+
+    /* Financial Chart Colors */
+    --chart-bull: 142 75% 45%;
+    --chart-bear: 0 75% 55%;
+    --chart-neutral: 210 15% 45%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(210 80% 55%), hsl(200 90% 60%));
+    --gradient-success: linear-gradient(135deg, hsl(142 75% 45%), hsl(152 75% 50%));
+    --gradient-risk: linear-gradient(135deg, hsl(0 75% 55%), hsl(15 75% 60%));
+    --gradient-surface: linear-gradient(135deg, hsl(220 20% 8%), hsl(220 15% 12%));
+
+    /* Shadows */
+    --shadow-primary: 0 10px 30px -10px hsl(210 80% 55% / 0.3);
+    --shadow-success: 0 10px 30px -10px hsl(142 75% 45% / 0.3);
+    --shadow-risk: 0 10px 30px -10px hsl(0 75% 55% / 0.3);
+    --shadow-glow: 0 0 40px hsl(210 80% 55% / 0.2);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-chart: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
