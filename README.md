@@ -1,52 +1,54 @@
-Credit Score Flow Application
-Project Overview
+# Credit Score Flow Application
 
-This project is a modern web application built to demonstrate a structured frontend architecture using React and TypeScript. It focuses on clean UI components, scalable project structure, and best practices in modern frontend development.
+## Project Overview
+
+This project is a **modern web application** built to demonstrate a structured frontend architecture using React and TypeScript. It focuses on clean UI components, scalable project structure, and best practices in modern frontend development.
 
 The application is designed to be developer-friendly, easily extensible, and suitable for real-world use cases.
 
-Features
+---
 
-Modern React architecture with TypeScript
+## Features
 
-Component-driven UI design
+* Modern React architecture with TypeScript
+* Component-driven UI design
+* Responsive and accessible user interface
+* Scalable folder structure
+* Fast development and build setup using Vite
+* Styled using utility-first CSS and reusable UI components
 
-Responsive and accessible user interface
+---
 
-Scalable folder structure
-
-Fast development and build setup using Vite
-
-Styled using utility-first CSS and reusable UI components
-
-Tech Stack
+## Tech Stack
 
 This project is built using:
 
-React – Component-based UI development
+* **React** – Component-based UI development
+* **TypeScript** – Type safety and better developer experience
+* **Vite** – Fast build tool and development server
+* **Tailwind CSS** – Utility-first styling
+* **shadcn/ui** – Reusable and accessible UI components
 
-TypeScript – Type safety and better developer experience
+---
 
-Vite – Fast build tool and development server
+## Project Setup (Local Development)
 
-Tailwind CSS – Utility-first styling
-
-shadcn/ui – Reusable and accessible UI components
-
-Project Setup (Local Development)
-Prerequisites
+### Prerequisites
 
 Make sure you have the following installed:
 
-Node.js
-
-npm
+* **Node.js**
+* **npm**
 
 Recommended way to install Node.js:
 
-Use nvm (Node Version Manager)
+* Use **nvm (Node Version Manager)**
 
-Steps to Run Locally
+---
+
+### Steps to Run Locally
+
+```sh
 # Clone the repository
 git clone <YOUR_GIT_URL>
 
@@ -58,11 +60,15 @@ npm install
 
 # Start the development server
 npm run dev
-
+```
 
 The application will start locally with hot-reloading enabled.
 
-Project Structure
+---
+
+## Project Structure
+
+```text
 src/
 ├── components/     # Reusable UI components
 ├── pages/          # Page-level components
@@ -70,52 +76,59 @@ src/
 ├── utils/          # Utility functions
 ├── styles/         # Global and shared styles
 └── main.tsx        # Application entry point
-
+```
 
 This structure ensures:
 
-Separation of concerns
+* Separation of concerns
+* Maintainable and scalable codebase
+* Easy onboarding for new developers
 
-Maintainable and scalable codebase
+---
 
-Easy onboarding for new developers
+## Development Workflow
 
-Development Workflow
+* Make changes locally using your preferred IDE
+* Follow a clean Git workflow:
 
-Make changes locally using your preferred IDE
+  ```sh
+  git status
+  git add .
+  git commit -m "Meaningful commit message"
+  git push
+  ```
+* Each commit represents a logical and traceable improvement
 
-Follow a clean Git workflow:
+---
 
-git status
-git add .
-git commit -m "Meaningful commit message"
-git push
+## Build for Production
 
-
-Each commit represents a logical and traceable improvement
-
-Build for Production
+```sh
 npm run build
-
+```
 
 This command generates an optimized production build.
 
-Future Improvements
+---
 
-Add form validation and error handling
+## Future Improvements
 
-Improve accessibility and UX
+* Add form validation and error handling
+* Improve accessibility and UX
+* Add backend integration
+* Introduce automated testing
+* Enhance performance optimizations
 
-Add backend integration
+---
 
-Introduce automated testing
+## Author
 
-Enhance performance optimizations
+Developed and maintained by **Sai Anoop Allada**.
 
-Author
+---
 
-Developed and maintained by Sai Anoop Allada.
-
-License
+## License
 
 This project is open for learning, experimentation, and improvement.
+
+---
