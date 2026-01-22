@@ -1,5 +1,9 @@
 # Credit Score Flow Application
 
+🔗 Live Demo: https://insight-cred-flow-03.vercel.app/  
+📂 GitHub Repository: https://github.com/SaiAnoop/credit-score-flow
+
+
 ## Project Overview
 
 This project is a **modern web application** built to demonstrate a structured frontend architecture using React and TypeScript. It focuses on clean UI components, scalable project structure, and best practices in modern frontend development.
