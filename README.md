@@ -1,73 +1,138 @@
-# Welcome to your Lovable project
+# Credit Score Flow Application
 
-## Project info
+🔗 Live Demo: https://insight-cred-flow-03.vercel.app/  
+📂 GitHub Repository: https://github.com/SaiAnoop/credit-score-flow
 
-**URL**: https://lovable.dev/projects/8f8e1021-d6f5-4ecf-9f4e-615ff2c90c00
 
-## How can I edit this code?
+## Project Overview
 
-There are several ways of editing your application.
+This project is a **modern web application** built to demonstrate a structured frontend architecture using React and TypeScript. It focuses on clean UI components, scalable project structure, and best practices in modern frontend development.
 
-**Use Lovable**
+The application is designed to be developer-friendly, easily extensible, and suitable for real-world use cases.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8f8e1021-d6f5-4ecf-9f4e-615ff2c90c00) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Features
 
-**Use your preferred IDE**
+* Modern React architecture with TypeScript
+* Component-driven UI design
+* Responsive and accessible user interface
+* Scalable folder structure
+* Fast development and build setup using Vite
+* Styled using utility-first CSS and reusable UI components
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Tech Stack
 
-Follow these steps:
+This project is built using:
+
+* **React** – Component-based UI development
+* **TypeScript** – Type safety and better developer experience
+* **Vite** – Fast build tool and development server
+* **Tailwind CSS** – Utility-first styling
+* **shadcn/ui** – Reusable and accessible UI components
+
+---
+
+## Project Setup (Local Development)
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+* **Node.js**
+* **npm**
+
+Recommended way to install Node.js:
+
+* Use **nvm (Node Version Manager)**
+
+---
+
+### Steps to Run Locally
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate into the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will start locally with hot-reloading enabled.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```text
+src/
+├── components/     # Reusable UI components
+├── pages/          # Page-level components
+├── hooks/          # Custom React hooks
+├── utils/          # Utility functions
+├── styles/         # Global and shared styles
+└── main.tsx        # Application entry point
+```
 
-## What technologies are used for this project?
+This structure ensures:
 
-This project is built with:
+* Separation of concerns
+* Maintainable and scalable codebase
+* Easy onboarding for new developers
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## Development Workflow
 
-Simply open [Lovable](https://lovable.dev/projects/8f8e1021-d6f5-4ecf-9f4e-615ff2c90c00) and click on Share -> Publish.
+* Make changes locally using your preferred IDE
+* Follow a clean Git workflow:
 
-## Can I connect a custom domain to my Lovable project?
+  ```sh
+  git status
+  git add .
+  git commit -m "Meaningful commit message"
+  git push
+  ```
+* Each commit represents a logical and traceable improvement
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Build for Production
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```sh
+npm run build
+```
+
+This command generates an optimized production build.
+
+---
+
+## Future Improvements
+
+* Add form validation and error handling
+* Improve accessibility and UX
+* Add backend integration
+* Introduce automated testing
+* Enhance performance optimizations
+
+---
+
+## Author
+
+Developed and maintained by **Sai Anoop Allada**.
+
+---
+
+## License
+
+This project is open for learning, experimentation, and improvement.
+
+---
