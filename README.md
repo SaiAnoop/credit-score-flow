@@ -1,6 +1,6 @@
 # Credit Score Flow Application
 
-🔗 Live Demo: https://credtechapp.lovable.app/
+🔗 Live Demo: https://preview--credtechapp.lovable.app/
 
 📂 GitHub Repository: https://github.com/SaiAnoop/credit-score-flow
 
